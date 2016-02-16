@@ -1,6 +1,4 @@
-## This will create migration file for users
-php artisan make:migration create_users_table --create=users
-```
+<?php
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
@@ -35,4 +33,4 @@ class CreateUsersTable extends Migration
         Schema::drop('users');
     }
 }
-```
+
