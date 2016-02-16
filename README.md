@@ -3,6 +3,6 @@ Setup closure table for categories.
 ==================================
 
 This project is designed for creating closure tables in laravel 5.1 version. 
-1. Migrations
+###### Migrations
   1. create migration of users table
   2. create migration of bug status table
