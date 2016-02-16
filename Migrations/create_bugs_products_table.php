@@ -12,7 +12,7 @@ class CreateBugsProductsTable extends Migration
      */
     public function up()
     {
-        Schema::create('bugsproducts', function (Blueprint $table) {
+        Schema::create('bugs_products', function (Blueprint $table) {
             $table->integer('bug_id')->unsigned();
             $table->foreign('bug_id')->references('id')->on('bugs');
             $table->integer('product_id')->unsigned();
@@ -28,6 +28,6 @@ class CreateBugsProductsTable extends Migration
      */
     public function down()
     {
-        Schema::drop('bugsproducts');
+        Schema::drop('bugs_products');
     }
 }
