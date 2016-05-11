@@ -14,5 +14,5 @@ This project is designed for creating closure tables in laravel 5.1 version. Usi
   8. create migration of contacts table
 
 So far this should look like this in your db schema -  [db_schema](https://cloud.githubusercontent.com/assets/8436772/13091088/1b4b18f4-d502-11e5-98e6-5d8e101b450c.PNG)
-[test link](https://github.com/skygravity/laravel-closure-table/edit/master/README.md)
+
 
